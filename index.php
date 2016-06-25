@@ -65,11 +65,14 @@
 
 				<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
 
-					<div class="pfblock-header wow fadeInUp">
+					<div class="pfblock-header wow fadeInUp" style="border: 1px dashed #ddd;
+					box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;">
 						<h2 class="pfblock-title">Qu'est-ce que OPCIFORME ?</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							OPCIFORME intervient depuis de nombreuses années dans le champ de la formation et de l'emploi. <br/>
+							OPCIFORME a été créé en décembre 2014 par Mouloud BESBISS qui dispose de 15 ans 
+							d’expérience dans le champ de l’orientation de la formation et de l’emploi. <br/>
+							La société intervient depuis de nombreuses années dans le champ de la formation et de l'emploi. <br/>
 							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage en 
 							partenariat avec l’ANCLI, le CRAPT CARRLI et tous les intervenants qui se sont saisis de la problématique 
 							de l’illettrisme et des savoirs de base.
@@ -87,12 +90,12 @@
 
 					<div class="iconbox wow slideInLeft">
 						<div class="iconbox-icon">
-							<span class="icon-magic-wand"></span>
+							<span class="icon-pie-chart"></span>
 						</div>
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Public visé</h3>
 							<div class="iconbox-desc">
-								L’organisme intervient auprès d’un public hétérogène, a tissé un fort partenariat avec les organismes 
+								L’organisme intervient auprès d’un public hétérogène de toute culture, a tissé un fort partenariat avec les organismes 
 								institutionnels (Région, Pôle Emploi, Mission locale, entreprises…) et propose des accompagnements 
 								adaptés et individualisés.
 							</div>
@@ -109,9 +112,9 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Une expertise professionnelle de qualité</h3>
 							<div class="iconbox-desc">
-								OPCIFORME possède une expertise, une connaissance des publics en situation d’illettrisme ou en difficulté 
-								face aux savoirs de bases et s’inscrit dans une démarche pragmatique, adoptant une pédagogie basée sur 
-								des objectifs professionnels différenciés (Accès à l’emploi, projet, et évolution professionnelles….).
+								OPCIFORME dispose d'une expertise et d'une connaissance des publics en situation d’illettrisme ou en difficulté 
+								face aux savoirs de bases, et s’inscrit dans une démarche pragmatique, adoptant une pédagogie basée sur 
+								des objectifs professionnels différenciés (Accès à l’emploi, projets, et évolutions professionnelles….).
 							</div>
 						</div>
 					</div>
@@ -122,7 +125,7 @@
 
 					<div class="iconbox wow slideInRight">
 						<div class="iconbox-icon">
-							<span class="icon-badge"></span>
+							<span class="icon-notebook"></span>
 						</div>
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Partenaires</h3>
@@ -309,13 +312,16 @@
 						<h2 class="pfblock-title">Envoyez-nous un message ou cliquez sur un des liens.</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-
-						<button type="button" class="btn btn-primary" onclick="window.open('https://www.facebook.com/profile.php?id=100008769211783&fref=ts')">
-							<i class="fa fa-facebook"></i>
-						</button>
-						<button type="button" class="btn btn-primary" onclick="window.open('https://fr.linkedin.com/in/mouloud-besbiss-977a4a68')">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-						</button>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<button type="button" class="btn btn-primary" onclick="window.open('https://www.facebook.com/profile.php?id=100008769211783&fref=ts')">
+									<i class="fa fa-facebook"></i>
+								</button>
+								<button type="button" class="btn btn-primary" onclick="window.open('https://fr.linkedin.com/in/mouloud-besbiss-977a4a68')">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
 						<br/><br/>
 							<form class="form-horizontal" role="form" method="post" action="index.php">
 								<div class="form-group">
@@ -343,7 +349,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<div class="col-sm-10 col-sm-offset-2">
+									<div class="col-sm-8 col-sm-offset-2">
 										<input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
 									</div>
 								</div>
