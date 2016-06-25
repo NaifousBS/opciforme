@@ -40,7 +40,7 @@
         	</div>
 		</div>
 
-        <a href="#services">
+        <a href="#accueil">
 		<div class="scroll-down">
             <span>
                 <i class="fa fa-angle-down fa-2x"></i>
@@ -53,54 +53,26 @@
 	<!-- Home end -->
 
 	<!-- Navigation start -->
-
-	<header class="header">
-
-		<nav class="navbar navbar-custom" role="navigation">
-
-			<div class="container">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">OPCIFORME.fr</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="custom-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Accueil</a></li>
-                        <li><a href="#domform">Domaines de formation</a></li>
-                        <li><a href="#coach">Coaching</a></li>
-                        <li><a href="#partners">Partenaires</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-
-			</div><!-- .container -->
-
-		</nav>
-
-	</header>
+<?php include('menu.php'); ?>
 
 	<!-- Navigation end -->
 
     <!-- Services start -->
 
-	<section id="services" class="pfblock pfblock-gray">
+	<section id="accueil" class="pfblock pfblock-gray">
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">Nos objectifs</h2>
+						<h2 class="pfblock-title">Qu'est-ce que OPCIFORME ?</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							OPCIFORME intervient depuis de nombreuses années dans le champ de la formation et de l'emploi.
+							OPCIFORME intervient depuis de nombreuses années dans le champ de la formation et de l'emploi. <br/>
+							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage en 
+							partenariat avec l’ANCLI, le CRAPT CARRLI et tous les intervenants qui se sont saisis de la problématique 
+							de l’illettrisme et des savoirs de base.
 						</div>
 					</div>
 
@@ -110,7 +82,8 @@
 
 			<div class="row">
 
-				<div class="col-sm-3">
+
+				<div class="col-sm-4">
 
 					<div class="iconbox wow slideInLeft">
 						<div class="iconbox-icon">
@@ -119,55 +92,44 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Public visé</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								L’organisme intervient auprès d’un public hétérogène, a tissé un fort partenariat avec les organismes 
+								institutionnels (Région, Pôle Emploi, Mission locale, entreprises…) et propose des accompagnements 
+								adaptés et individualisés.
 							</div>
 						</div>
 					</div>
-
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 
 					<div class="iconbox wow slideInLeft">
 						<div class="iconbox-icon">
 							<span class="icon-puzzle"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Programming</h3>
+							<h3 class="iconbox-title">Une expertise professionnelle de qualité</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								OPCIFORME possède une expertise, une connaissance des publics en situation d’illettrisme ou en difficulté 
+								face aux savoirs de bases et s’inscrit dans une démarche pragmatique, adoptant une pédagogie basée sur 
+								des objectifs professionnels différenciés (Accès à l’emploi, projet, et évolution professionnelles….).
 							</div>
 						</div>
 					</div>
 
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 
 					<div class="iconbox wow slideInRight">
 						<div class="iconbox-icon">
 							<span class="icon-badge"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
+							<h3 class="iconbox-title">Partenaires</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-question"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Consultation</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								M. BESBISS possède de nombreuses références, un large réseau d’entreprises partenaires, 
+								de référents et de structure en lien avec la sphère professionnelle (Bilan avec les financeurs, 
+								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…)
 							</div>
 						</div>
 					</div>
@@ -182,49 +144,44 @@
     
 	<!-- Portfolio start -->
 
-	<section id="portfolio" class="pfblock">
+	<section id="chActions" class="pfblock">
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-sm-12">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My works</h2>
+						<h2 class="pfblock-title">Champs d'action</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+						<strong>OPCIFORME</strong> est en mesure d’intervenir dans les différentes phases de la construction d’un parcours 
+						professionnels et formatif adapté, essentiellement dans : <br/><br/>
+							<div style="text-align: left">
+								- <strong>L’Orientation Professionnelle</strong> (bilan de compétences, élaboration de projets professionnels, 
+								mises en relations, recherche de formation, montage de dossiers..) <br/>
+								- Le <strong>Conseil</strong> (transmission d’informations, appui…) <br/>
+								- L’<strong>Insertion</strong> (Sécurisation professionnelle…) <br/>
+								- La <strong>Formation</strong> (Remise à niveau, Savoirs de bases, socle de connaissances et compétences 
+								professionnelles, Français Langue Etrangère, communication…) <br/>
+								- L’<strong>Emploi</strong> (Technique de Recherche d’Emploi : CV, Lettre, entretien d’embauche…) <br/>						
+							</div>
 						</div>
 					</div>
 
 				</div>
 
-			</div><!-- .row -->
+			</div>
             
             
             <div class="row">
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-1.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Crazy <span>Shark</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-
                 <div class="col-xs-12 col-sm-4 col-md-4">
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-2.jpg" alt="img01"/>
+                            <img src="assets/images/conseil.jpg" alt="conseil"/>
                             <figcaption>
-                                <h2>Funny <span>Tortoise</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Image <span>1</span></h2>
+                                <p>Conseil</p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -235,10 +192,10 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-3.jpg" alt="img01"/>
+                            <img src="assets/images/formation.jpg" alt="formation"/>
                             <figcaption>
-                                <h2>The <span>Hat</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Image <span>2</span></h2>
+                                <p>Formation</p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -249,137 +206,23 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-4.jpg" alt="img01"/>
+                            <img src="assets/images/emploi.jpg" alt="emploi"/>
                             <figcaption>
-                                <h2>Bang <span>Bang</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Image <span>3</span></h2>
+                                <p>Emploi</p>
                             </figcaption>			
                         </figure>
-                    </div>
-                    
+                    </div>  
                 </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-5.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Crypton <span>Dude</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-6.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Don't <span>Poke</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
             </div>
-
-
-		</div><!-- .contaier -->
-
+		</div>
 	</section>
 
 	<!-- Portfolio end -->
     
-    <!-- Skills start -->
-    
-    <section class="pfblock pfblock-gray" id="skills">
-		
-			<div class="container">
-			
-				<div class="row skills">
-					
-					<div class="row">
+    <!-- Testimonials start -->
 
-                        <div class="col-sm-6 col-sm-offset-3">
-
-                            <div class="pfblock-header wow fadeInUp">
-                                <h2 class="pfblock-title">My Skills</h2>
-                                <div class="pfblock-line"></div>
-                                <div class="pfblock-subtitle">
-                                    No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div><!-- .row -->
-					
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">80</span>
-                        </span>
-						<h3 class="text-center">Programming</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
-                        </span>
-						<h3 class="text-center">Design</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">85</span>
-                        </span>
-						<h3 class="text-center">Marketing</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">95</span>
-                        </span>
-						<h3 class="text-center">UI / UX</h3>
-					</div>
-					
-				</div><!--End row -->
-			
-			</div>
-		
-    </section>
-    
-    <!-- Skills end -->
-
-	<!-- CallToAction start -->
-
-	<section class="calltoaction">
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
-					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for freelance projects.
-					</div>
-				</div>
-
-				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Hire Me</a>
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- CallToAction end -->
-
-	<!-- Testimonials start -->
-
-	<section id="testimonials" class="pfblock pfblock-gray">
+	<section id="offres" class="pfblock pfblock-gray">
 
 		<div class="container">
             
@@ -388,32 +231,32 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">What my clients say</h2>
+						<h2 class="pfblock-title">Nos offres et propositions disponibles</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+							Ici on mettra les différentes offres de formation ou d'emploi que l'on pourra faire visualiser.
 						</div>
 					</div>
 
 				</div>
 
-			</div><!-- .row -->
+			</div>
 
             <div class="row">
 
 			<div id="cbp-qtrotator" class="cbp-qtrotator">
                 <div class="cbp-qtcontent">
-                    <img src="assets/images/client-1.jpg" alt="client-1" />
+                    <img class="qtrotator" src="assets/images/mulhouse.jpg" alt="Mulhouse"/>
                     <blockquote>
-                      <p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>
-                      <footer>Pino Caruso</footer>
+                      <p>Offre1.</p>
+                      <footer>Mulhouse</footer>
                     </blockquote>
                 </div>
                 <div class="cbp-qtcontent">
-                    <img src="assets/images/client-2.jpg" alt="client-2" />
+                    <img class="qtrotator" src="assets/images/colmar.jpg" alt="Colmar" />
                     <blockquote>
-                      <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
-                      <footer>Jane Doe</footer>
+                      <p>Proposition2.</p>
+                      <footer>Colmar</footer>
                     </blockquote>
                 </div>
 
@@ -427,6 +270,32 @@
 
 	<!-- Testimonial end -->
 
+	<!-- CallToAction start -->
+
+	<section class="calltoaction">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12 col-lg-12">
+					<h2 class="wow slideInRight" data-wow-delay=".1s">Un premier plan de formation? Une réorientation? Une remise à niveau ?</h2>
+					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+						N'hésitez pas
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+					<a href="#contact" class="btn btn-lg">Contactez-nous !</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- CallToAction end -->
+
+	
+
 
 	<!-- Contact start -->
 
@@ -437,46 +306,59 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header">
-						<h2 class="pfblock-title">Un premier contact ? Une suggestion ? Plus de précisions ?</h2>
+						<h2 class="pfblock-title">Envoyez-nous un message ou cliquez sur un des liens.</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							Contactez-nous via le formulaire ci-dessous pour que nous puissions satisfaire rapidement votre requête.
+
+						<button type="button" class="btn btn-primary" onclick="window.open('https://www.facebook.com/profile.php?id=100008769211783&fref=ts')">
+							<i class="fa fa-facebook"></i>
+						</button>
+						<button type="button" class="btn btn-primary" onclick="window.open('https://fr.linkedin.com/in/mouloud-besbiss-977a4a68')">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</button>
+						<br/><br/>
+							<form class="form-horizontal" role="form" method="post" action="index.php">
+								<div class="form-group">
+									<label for="name" class="col-sm-2 control-label">Nom</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="name" name="name" placeholder="Nom & Prénom" value="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="email" name="email" placeholder="exemple@domaine.com" value="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="message" class="col-sm-2 control-label">Message</label>
+									<div class="col-sm-10">
+										<textarea class="form-control" rows="4" name="message" placeholder="Entrez votre message ..."></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control" id="human" name="human" placeholder="Réponse">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10 col-sm-offset-2">
+										<input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-10 col-sm-offset-2">
+										<!-- alertes formulaires-->
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 
 				</div>
 
-			</div><!-- .row -->
-
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<form id="contact_form" name="contact_form" role="form" method="post" action="contact.php">
-						<div class="ajax-hidden">
-							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="c_name">Nom</label>
-								<input type="text" id="c_name" class="form-control" name="nom" placeholder="Nom">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label class="sr-only" for="c_email">Email</label>
-								<input type="email" id="c_email" class="form-control" name="email" placeholder="E-mail">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="message" rows="7" placeholder="Message"></textarea>
-							</div>
-
-							<button id="contact_form" name="envoi" type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Envoyer</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
+			</div>
 	</section>
 
 	<!-- Contact end -->
@@ -491,13 +373,15 @@
 
 					<ul class="social-links">
 						<li><a href="https://www.facebook.com/profile.php?id=100008769211783&fref=ts" class="wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://fr.linkedin.com/in/mouloud-besbiss-977a4a68" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="mailto:opciforme@gmail.com" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
 						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>-->
 					</ul>
                     <p class="copyright">
-                       # © 2016 OPCIFORME #
+                        © 2016 OPCIFORME 
 					</p>
 
 				</div>
@@ -511,13 +395,20 @@
 	<!-- Scroll to top -->
 
 	<div class="scroll-up">
-		<a href="#home"><i class="fa fa-angle-up"></i></a>
+		<a href="#accueil"><i class="fa fa-angle-up"></i></a>
 	</div>
     
     <!-- Scroll to top end-->
 
 	<!-- Javascript files -->
 
+	<style>
+		img.qtrotator{
+			width: 150px; 
+			height: 200px; 
+			border: 1px solid #0B3340;
+		}
+	</style>
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
