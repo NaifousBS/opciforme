@@ -323,7 +323,7 @@
 							</div>
 						</div>
 						<br/><br/>
-							<form class="form-horizontal" role="form" method="post" action="index.php">
+							<form class="form-horizontal" role="form" method="post" action="envoi.php">
 								<div class="form-group">
 									<label for="name" class="col-sm-2 control-label">Nom</label>
 									<div class="col-sm-10">
