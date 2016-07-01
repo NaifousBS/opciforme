@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -283,118 +284,22 @@
 				<div class="col-md-12 col-lg-12">
 					<h2 class="wow slideInRight" data-wow-delay=".1s">Un premier plan de formation? Une réorientation? Une remise à niveau ?</h2>
 					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						N'hésitez pas
+						N'hésitez pas <i class="fa fa-smile-o" aria-hidden="true"></i>
 					</div>
 				</div>
 
 				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Contactez-nous !</a>
+					<a href="contact.php" class="btn btn-lg">Contactez-nous !</a>
 				</div>
 
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</section>
-
 	<!-- CallToAction end -->
-
-	
-
-
-	<!-- Contact start -->
-
-	<section id="contact" class="pfblock">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header">
-						<h2 class="pfblock-title">Envoyez-nous un message ou cliquez sur un des liens.</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<button type="button" class="btn btn-primary" onclick="window.open('https://www.facebook.com/profile.php?id=100008769211783&fref=ts')">
-									<i class="fa fa-facebook"></i>
-								</button>
-								<button type="button" class="btn btn-primary" onclick="window.open('https://fr.linkedin.com/in/mouloud-besbiss-977a4a68')">
-									<i class="fa fa-linkedin" aria-hidden="true"></i>
-								</button>
-							</div>
-						</div>
-						<br/><br/>
-							<form class="form-horizontal" role="form" method="post" action="envoi.php">
-								<div class="form-group">
-									<label for="name" class="col-sm-2 control-label">Nom</label>
-									<div class="col-sm-10">
-										<input type="text" class="form-control" id="name" name="name" placeholder="Nom & Prénom" value="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="email" class="col-sm-2 control-label">Email</label>
-									<div class="col-sm-10">
-										<input type="email" class="form-control" id="email" name="email" placeholder="exemple@domaine.com" value="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="message" class="col-sm-2 control-label">Message</label>
-									<div class="col-sm-10">
-										<textarea class="form-control" rows="4" name="message" placeholder="Entrez votre message ..."></textarea>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-									<div class="col-sm-10">
-										<input type="text" class="form-control" id="human" name="human" placeholder="Réponse">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-8 col-sm-offset-2">
-										<input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
-									</div>
-								</div>
-								<div class="form-group">
-                                    <div class="col-sm-10 col-sm-offset-2">
-                                        <?php echo $result; ?>	
-                                    </div>
-                                </div>
-							</form>
-						</div>
-					</div>
-
-				</div>
-            </div>
-			</div>
-	</section>
-
-	<!-- Contact end -->
 
 	<!-- Footer start -->
 
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-12">
-
-					<ul class="social-links">
-						<li><a href="https://www.facebook.com/profile.php?id=100008769211783&fref=ts" class="wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://fr.linkedin.com/in/mouloud-besbiss-977a4a68" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="mailto:opciforme@gmail.com" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
-						<!--<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>-->
-					</ul>
-                    <p class="copyright">
-                        © 2016 OPCIFORME 
-					</p>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</footer>
+	<?php include('footer.php'); ?>
 
 	<!-- Footer end -->
 
@@ -408,24 +313,7 @@
 
 	<!-- Javascript files -->
 
-	<style>
-		img.qtrotator{
-			width: 150px; 
-			height: 200px; 
-			border: 1px solid #0B3340;
-		}
-	</style>
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.cbpQTRotator.js"></script>
-	<script src="assets/js/custom.js"></script>
+
 
 </body>
 </html>
