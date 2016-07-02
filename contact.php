@@ -7,13 +7,12 @@
         $result = "";
 
 if (isset($_POST["submit"])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$message = $_POST['message'];
-		$human = intval($_POST['human']);
-		$from = 'soufian1993@hotmail.fr'; 
+		$name = htmlspecialchars($_POST['name']);
+		$email = htmlspecialchars($_POST['email']);
+		$message = htmlspecialchars($_POST['message']);
+		$human =intval($_POST['human']);
+		$from = 'OPCIFORME.fr'; 
 		$to = 'soufian1993@hotmail.fr';
-        ini_set("sendmail_from",$from);
 		$subject = 'Nouveau message du site OPCIFORME.fr';
 		
 		$body = "De:".$name."\n Mail:".$email."\n Message:\n ".$message;
