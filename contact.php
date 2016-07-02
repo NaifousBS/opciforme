@@ -1,3 +1,4 @@
+<?php include('header.php')?>
 <?php
         $errName= "";
         $errEmail = "";
@@ -48,24 +49,12 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 }
 	}
 ?>
-<!-- CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
-    
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-    
-    <script src="assets/js/modernizr.custom.js"></script>
-
-
 			<div class="row">
 
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header">
-						<h2 class="pfblock-title">Envoyez-nous un message</h2>
+						<h2 class="pfblock-title" style="margin-top:100px">Envoyez-nous un message</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 						<div class="row">
@@ -75,6 +64,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 								</button>
 								<button type="button" class="btn btn-primary" onclick="window.open('https://fr.linkedin.com/in/mouloud-besbiss-977a4a68')">
 									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</button>
+                                <button type="button" class="btn btn-info" onclick="window.location='mailto:opciforme@gmail.com'">
+									<i class="fa fa-envelope"></i>
 								</button>
 							</div>
 						</div>
@@ -116,18 +108,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                         echo "<p class='text-danger'>".$errHuman."</p>";
                                     ?>
 								</div>
-                                <div class="row">
-                                    <div class="form-group">
-                                        <div class="col-sm-4">
-                                            <input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <button type="button" name="retour" class="btn btn-warning" onclick="window.location='index.php'">
-                                                Retour
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
+                                    <button type="button" name="retour" class="btn btn-warning" onclick="window.location='index.php'">
+                                        Retour
+                                    </button>
 								<div class="form-group">
                                     <div class="col-sm-10 col-sm-offset-2">
                                         <?php
@@ -141,5 +125,3 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 				</div>
             </div>
-
-<?php include('footer.php'); ?>

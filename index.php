@@ -1,26 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<title>OPCIFORME - S'orienter, se construire, s'accomplir.</title>
-
-	<!-- CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
-    
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-    
-    <script src="assets/js/modernizr.custom.js"></script>
-       
-</head>
+    <?php include('header.php')?>
 <body>
 
 	<!-- Preloader -->
@@ -276,7 +257,7 @@
 
 	<!-- CallToAction start -->
 
-	<section class="calltoaction">
+	<section id="calltoaction" class="calltoaction">
 		<div class="container">
 
 			<div class="row">
@@ -292,28 +273,22 @@
 					<a href="contact.php" class="btn btn-lg">Contactez-nous !</a>
 				</div>
 
-			</div><!-- .row -->
-		</div><!-- .container -->
+			</div>
+		</div>
 	</section>
-	<!-- CallToAction end -->
-
-	<!-- Footer start -->
 
 	<?php include('footer.php'); ?>
-
-	<!-- Footer end -->
-
-	<!-- Scroll to top -->
 
 	<div class="scroll-up">
 		<a href="#accueil"><i class="fa fa-angle-up"></i></a>
 	</div>
     
-    <!-- Scroll to top end-->
-
-	<!-- Javascript files -->
-
-
-
+    <style>
+		img.qtrotator{
+			width: 150px; 
+			height: 200px; 
+			border: 1px solid #0B3340;
+		}
+	</style>
 </body>
 </html>

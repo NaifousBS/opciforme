@@ -19,7 +19,7 @@
 						<li><a href="#accueil">Accueil</a></li>
                         <li><a href="#chActions">Champs d'action</a></li>
                         <li><a href="#offres">Offres et propositions</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#calltoaction">Contact</a></li>
 					</ul>
 				</div>
 
