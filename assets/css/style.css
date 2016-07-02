@@ -542,7 +542,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	font-size: 11px;
 	letter-spacing: 3px;
-	color: #222;
+	color: #ec9c4b;
 }
 
 .navbar-custom .nav li.active,
@@ -551,7 +551,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: #333;
 }
 
 .navbar-custom .navbar-brand {
@@ -925,7 +925,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtprogress {
 	position: absolute;
-	background: #0B3340;
+	background: #ec9c4b;
 	height: 1px;
 	width: 0%;
 	top: 0;
