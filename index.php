@@ -45,19 +45,18 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+				<div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
 
-					<div class="pfblock-header wow fadeInUp" style="border: 1px dashed #ddd;
-					box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;">
-						<h2 class="pfblock-title">Qu'est-ce que OPCIFORME ?</h2>
+					<div class="pfblock-header wow fadeInUp" style="border-left: 1px solid #ec9c4b!important;border-right: 1px solid #ec9c4b!important; border-radius:1px;">
+						<h2 class="pfblock-title">Présentation</h2>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							OPCIFORME a été créé en décembre 2014 par Mouloud BESBISS qui dispose de 15 ans 
-							d’expérience dans le champ de l’orientation de la formation et de l’emploi. <br/>
-							La société intervient depuis de nombreuses années dans le champ de la formation et de l'emploi. <br/>
-							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage en 
-							partenariat avec l’ANCLI, le CRAPT CARRLI et tous les intervenants qui se sont saisis de la problématique 
-							de l’illettrisme et des savoirs de base.
+						<div class="pfblock-subtitle" style="text-align: justify; margin:5px">
+                            OPCIFORME a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de 15 ans 
+							d’expérience dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
+							La société intervient depuis de nombreuses années dans le champ de <b>la formation et de l'emploi</b>. 
+							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage <b>en 
+							partenariat avec l’ANCLI, le CRAPT CARRLI</b> et tous les intervenants qui se sont saisis de la problématique 
+                            de <b>l’illettrisme et des savoirs de base</b>.
 						</div>
 					</div>
 
@@ -142,13 +141,13 @@
 						<strong>OPCIFORME</strong> est en mesure d’intervenir dans les différentes phases de la construction d’un parcours 
 						professionnels et formatif adapté, essentiellement dans : <br/><br/>
 							<div style="text-align: left">
-								- <strong>L’Orientation Professionnelle</strong> (bilan de compétences, élaboration de projets professionnels, 
+								- <b>L’Orientation Professionnelle</b> (bilan de compétences, élaboration de projets professionnels, 
 								mises en relations, recherche de formation, montage de dossiers..) <br/>
-								- Le <strong>Conseil</strong> (transmission d’informations, appui…) <br/>
-								- L’<strong>Insertion</strong> (Sécurisation professionnelle…) <br/>
-								- La <strong>Formation</strong> (Remise à niveau, Savoirs de bases, socle de connaissances et compétences 
+								- Le <b>Conseil</b> (transmission d’informations, appui…) <br/>
+								- L’<b>Insertion</b> (Sécurisation professionnelle…) <br/>
+								- La <b>Formation</b> (Remise à niveau, Savoirs de bases, socle de connaissances et compétences 
 								professionnelles, Français Langue Etrangère, communication…) <br/>
-								- L’<strong>Emploi</strong> (Technique de Recherche d’Emploi : CV, Lettre, entretien d’embauche…) <br/>						
+								- L’<b>Emploi</b> (Technique de Recherche d’Emploi : CV, Lettre, entretien d’embauche…) <br/>						
 							</div>
 						</div>
 					</div>
@@ -287,8 +286,13 @@
 		img.qtrotator{
 			width: 150px; 
 			height: 200px; 
-			border: 1px solid #0B3340;
+			border: 1px solid #ec9c4b;
 		}
+        
+        div.iconbox-desc{
+            text-align: justify;
+            font-size: 16px;
+        }
         
         @media screen and (max-width: 1280px){
             h1#bienvenueH {

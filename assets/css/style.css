@@ -273,6 +273,7 @@ textarea.form-control {
 
 .pfblock-title{
     font-weight: 800;
+    color: #ec9c4b;
 }
 
 .pfblock-subtitle {
@@ -417,6 +418,7 @@ textarea.form-control {
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+    color: #ec9c4b;
 }
 
 /* ---------------------------------------------- /*
