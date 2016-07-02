@@ -164,7 +164,7 @@
                         <figure class="effect-bubba">
                             <img src="assets/images/conseil.jpg" alt="conseil"/>
                             <figcaption>
-                                <h2>Image <span>1</span></h2>
+                                <h2><span>Suivi</span></h2>
                                 <p>Conseil</p>
                             </figcaption>			
                         </figure>
@@ -178,7 +178,7 @@
                         <figure class="effect-bubba">
                             <img src="assets/images/formation.jpg" alt="formation"/>
                             <figcaption>
-                                <h2>Image <span>2</span></h2>
+                                <h2><span>Encadrement</span></h2>
                                 <p>Formation</p>
                             </figcaption>			
                         </figure>
@@ -192,7 +192,7 @@
                         <figure class="effect-bubba">
                             <img src="assets/images/emploi.jpg" alt="emploi"/>
                             <figcaption>
-                                <h2>Image <span>3</span></h2>
+                                <h2><span>Réussite</span></h2>
                                 <p>Emploi</p>
                             </figcaption>			
                         </figure>
