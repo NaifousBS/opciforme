@@ -51,8 +51,8 @@
 						<h2 class="pfblock-title">Présentation</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle" style="text-align: justify; margin:5px">
-                            OPCIFORME a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de 15 ans 
-							d’expérience dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
+                            <b>OPCIFORME</b> a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de <b>15 ans 
+                            d’expérience</b> dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
 							La société intervient depuis de nombreuses années dans le champ de <b>la formation et de l'emploi</b>. 
 							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage <b>en 
 							partenariat avec l’ANCLI, le CRAPT CARRLI</b> et tous les intervenants qui se sont saisis de la problématique 
@@ -76,9 +76,9 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Public visé</h3>
 							<div class="iconbox-desc">
-								L’organisme intervient auprès d’un public hétérogène de toute culture, a tissé un fort partenariat avec les organismes 
+								L’organisme intervient auprès d’un <b>public hétérogène de toute culture</b>, a tissé un fort partenariat avec les organismes 
 								institutionnels (Région, Pôle Emploi, Mission locale, entreprises…) et propose des accompagnements 
-								adaptés et individualisés.
+								<b>adaptés et individualisés</b>.
 							</div>
 						</div>
 					</div>
@@ -93,9 +93,9 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Une expertise professionnelle de qualité</h3>
 							<div class="iconbox-desc">
-								OPCIFORME dispose d'une expertise et d'une connaissance des publics en situation d’illettrisme ou en difficulté 
-								face aux savoirs de bases, et s’inscrit dans une démarche pragmatique, adoptant une pédagogie basée sur 
-								des objectifs professionnels différenciés (Accès à l’emploi, projets, et évolutions professionnelles….).
+								<b>OPCIFORME</b> dispose d'une <b>expertise</b> et d'une connaissance des publics en situation d’illettrisme ou en difficulté 
+								face aux savoirs de bases, et s’inscrit dans une démarche <b>pragmatique</b>, adoptant une pédagogie basée sur 
+								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, et évolutions professionnelles….).
 							</div>
 						</div>
 					</div>
@@ -111,8 +111,8 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Partenaires</h3>
 							<div class="iconbox-desc">
-								M. BESBISS possède de nombreuses références, un large réseau d’entreprises partenaires, 
-								de référents et de structure en lien avec la sphère professionnelle (Bilan avec les financeurs, 
+								M. BESBISS possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
+								de référents et de structure en lien avec la sphère professionnelle (bilan avec les financeurs, 
 								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…)
 							</div>
 						</div>
@@ -138,7 +138,7 @@
 						<h2 class="pfblock-title">Champs d'action</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-						<strong>OPCIFORME</strong> est en mesure d’intervenir dans les différentes phases de la construction d’un parcours 
+						<b>OPCIFORME</b> est en mesure d’intervenir dans les différentes phases de la construction d’un parcours 
 						professionnels et formatif adapté, essentiellement dans : <br/><br/>
 							<div style="text-align: left">
 								- <b>L’Orientation Professionnelle</b> (bilan de compétences, élaboration de projets professionnels, 
