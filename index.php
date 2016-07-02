@@ -51,6 +51,7 @@
 						<h2 class="pfblock-title">Présentation</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle" style="text-align: justify; margin:5px">
+                            <p style="text-align: center"><img src="assets/images/photoMB.jpg" style="border: 1px solid #ec9c4b;border-radius:50%;width:20%"/></p>
                             <b>OPCIFORME</b> a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de <b>15 ans 
                             d’expérience</b> dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
 							La société intervient depuis de nombreuses années dans le champ de <b>la formation et de l'emploi</b>. 
