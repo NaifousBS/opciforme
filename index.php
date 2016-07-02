@@ -16,8 +16,8 @@
         <div class="home-overlay">
 		</div>
 		<div class="intro">
-			<h1>Bienvenue sur OPCIFORME.fr</h1>
-			<div class="start">
+			<h1 id="bienvenueH">Bienvenue sur OPCIFORME.fr</h1>
+			<div id="slogan" class="start">
         		Un salarié formé est armé pour performer.
         	</div>
 		</div>
@@ -289,6 +289,12 @@
 			height: 200px; 
 			border: 1px solid #0B3340;
 		}
+        
+        @media screen and (max-width: 1280px){
+            h1#bienvenueH {
+                margin-top: 130px;
+            }
+        }
 	</style>
 </body>
 </html>
