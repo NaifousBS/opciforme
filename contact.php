@@ -11,9 +11,8 @@ if (isset($_POST["submit"])) {
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'OPCIFORME.fr'; 
-		$to = 'opciforme@gmail.com';
-        //ini_set("SMTP","smtp.sfr.fr");
+		$from = 'soufian1993@hotmail.fr'; 
+		$to = 'soufian1993@hotmail.fr';
         ini_set("sendmail_from",$from);
 		$subject = 'Nouveau message du site OPCIFORME.fr';
 		
