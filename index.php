@@ -138,10 +138,10 @@
 					<div class="pfblock-header wow fadeInUp">
 						<h2 class="pfblock-title">Champs d'action</h2>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
+						<div class="pfblock-subtitle" style="text-align: justify">
 						<b>OPCIFORME</b> est en mesure d’intervenir dans les différentes phases de la construction d’un parcours 
 						professionnels et formatif adapté, essentiellement dans : <br/><br/>
-							<div style="text-align: left">
+							<div>
 								- <b>L’Orientation Professionnelle</b> (bilan de compétences, élaboration de projets professionnels, 
 								mises en relations, recherche de formation, montage de dossiers..) <br/>
 								- Le <b>Conseil</b> (transmission d’informations, appui…) <br/>
