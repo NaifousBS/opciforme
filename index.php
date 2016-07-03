@@ -216,10 +216,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">Nos offres et propositions disponibles</h2>
+						<h2 class="pfblock-title">Nos propositions disponibles actuellement</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							Ici on mettra les différentes offres de formation ou d'emploi que l'on pourra faire visualiser.
+							Ci-dessous les différentes interventions ou formations en cours :
 						</div>
 					</div>
 
