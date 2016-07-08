@@ -973,4 +973,25 @@ figure.effect-bubba:hover p {
 	}
 
 }
+		img.qtrotator{
+			width: 150px; 
+			height: 200px; 
+			border: 1px solid #ec9c4b;
+		}
+        
+        div.iconbox-desc{
+            text-align: justify;
+            font-size: 16px;
+        }
+        
+        img.logoAccueil{
+                max-width: 70%;
+                height: auto;
+            }
+        
+        @media screen and (max-width: 1280px){
+            h1#bienvenueH {
+                margin-top: 130px;
+            }
+        }
 

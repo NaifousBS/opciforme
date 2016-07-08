@@ -11,7 +11,8 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.php">OPCIFORME.fr</a>
+					<a class="navbar-brand" href="index.php">OPCIFORME</a>
+                    <!--<a class="navbar-brand" href="index.php"><img src="assets/images/opciforme.png" style="width:100px;height:100px" /></a>-->
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">

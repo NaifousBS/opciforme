@@ -16,7 +16,7 @@
         <div class="home-overlay">
 		</div>
 		<div class="intro">
-			<h1 id="bienvenueH">Bienvenue sur OPCIFORME.fr</h1>
+			<h1 id="bienvenueH">Bienvenue sur le site OPCIFORME</h1>
 			<div id="slogan" class="start">
         		Un salarié formé est armé pour performer.
         	</div>
@@ -48,10 +48,10 @@
 				<div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
 
 					<div class="pfblock-header wow fadeInUp" style="border-left: 1px solid #ec9c4b!important;border-right: 1px solid #ec9c4b!important; border-radius:1px;">
-						<h2 class="pfblock-title">Présentation</h2>
+						<p style="text-align: center"><img class="logoAccueil" src="assets/images/opciforme.png"/></p>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle" style="text-align: justify; margin:5px">
-                            <p style="text-align: center"><img src="assets/images/photoMB.jpg" style="border: 1px solid #ec9c4b;border-radius:50%;width:20%"/></p>
+                            
                             <b>OPCIFORME</b> a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de <b>15 ans 
                             d’expérience</b> dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
 							La société intervient depuis de nombreuses années dans le champ de <b>la formation et de l'emploi</b>. 
@@ -282,24 +282,6 @@
 	<div class="scroll-up">
 		<a href="#accueil"><i class="fa fa-angle-up"></i></a>
 	</div>
-    
-    <style>
-		img.qtrotator{
-			width: 150px; 
-			height: 200px; 
-			border: 1px solid #ec9c4b;
-		}
-        
-        div.iconbox-desc{
-            text-align: justify;
-            font-size: 16px;
-        }
-        
-        @media screen and (max-width: 1280px){
-            h1#bienvenueH {
-                margin-top: 130px;
-            }
-        }
-	</style>
+
 </body>
 </html>
