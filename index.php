@@ -77,7 +77,7 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Public visé</h3>
 							<div class="iconbox-desc">
-								OPCIFORME propose un accompagnement <b>individualisé</b>, des interventions modulaires et une approche pédagogique différenciée auprès d’un public <b>hétérogène</b> dans le cadre de la formation <b>tout au long de la vie</b> :
+								Nous proposons un accompagnement <b>individualisé</b>, des interventions modulaires et une approche pédagogique différenciée auprès d’un public <b>hétérogène</b> dans le cadre de la formation <b>tout au long de la vie</b> :
                                 <br><br><b>
                                 - Bénéficiaires du RSA ou de l’ASS<br>
                                 - Actifs occupés<br>
@@ -120,7 +120,7 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Partenaires</h3>
 							<div class="iconbox-desc">
-								OPCIFORME possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
+								La société possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
 								de référents et de structures en lien avec la sphère professionnelle (bilan avec les financeurs, 
 								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…) :
                                 <br><br><b>
