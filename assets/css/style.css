@@ -974,6 +974,15 @@ figure.effect-bubba:hover p {
 	.cbp-qtrotator img {
 		width: 80px;
 	}
+    
+    .start{
+        font-size: 19px;
+    }
+    
+    .cbp-qtrotator .cbp-qtcontent img {
+        float: none; 
+        margin-left: 3em;
+    }
 
 }
 		img.qtrotator{
@@ -992,9 +1001,18 @@ figure.effect-bubba:hover p {
                 height: auto;
             }
         
-        @media screen and (max-width: 1280px){
-            h1#bienvenueH {
-                margin-top: 130px;
-            }
+@media screen and (max-width: 1280px){
+            
+    h1#bienvenueH {
+            margin-top: 130px;
         }
+            
+    .start{
+            font-size: 19px;
+        }
+    .cbp-qtrotator .cbp-qtcontent img {
+            float: none; 
+            margin-left: 3em;
+    }
+}
 

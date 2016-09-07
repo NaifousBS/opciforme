@@ -264,7 +264,7 @@
                 
                 <div class="cbp-qtcontent">    
                     <blockquote>
-                        <p><b>Conseil/Coaching/Accompagnement</b></p>
+                        <p><b>Coaching/Accompagnement</b></p>
                         <img class="qtrotator" src="assets/images/coaching.png" />
                         <footer><br>
                           - Reconversions et projets professionnels<br>
