@@ -950,16 +950,19 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator blockquote footer {
 	font-size: 1.2em;
+    margin-left: 20px;
+    text-align: justify;
 }
 
 .cbp-qtrotator blockquote footer:before {
-	content: '― ';
+	content: ' ';
 }
 
 .cbp-qtrotator .cbp-qtcontent img {
 	float: right;
 	margin-left: 3em;
 }
+
 
 /* Example for media query */
 @media screen and (max-width: 30.6em) { 
@@ -974,9 +977,9 @@ figure.effect-bubba:hover p {
 
 }
 		img.qtrotator{
-			width: 150px; 
-			height: 200px; 
-			border: 1px solid #ec9c4b;
+			width: 140px; 
+			height: 130px; 
+			/*border: 1px solid #ec9c4b;*/
 		}
         
         div.iconbox-desc{

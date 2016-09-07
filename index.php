@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
     <?php include('header.php')?>
@@ -16,9 +15,10 @@
         <div class="home-overlay">
 		</div>
 		<div class="intro">
-			<h1 id="bienvenueH">Bienvenue sur le site OPCIFORME</h1>
+			<h1 id="bienvenueH" style="
+    margin-top: 200px;">Bienvenue sur le site OPCIFORME</h1>
 			<div id="slogan" class="start">
-        		Un salarié formé est armé pour performer.
+        		Solutions pour la sécurisation des parcours professionnels et la compétitivité des entreprises
         	</div>
 		</div>
 
@@ -77,10 +77,14 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Public visé</h3>
 							<div class="iconbox-desc">
-								L’organisme intervient auprès d’un <b>public hétérogène de toute culture</b>, a tissé un fort partenariat avec les organismes 
-								institutionnels (Région, Pôle Emploi, Mission locale, entreprises…) et propose des accompagnements 
-								<b>adaptés et individualisés</b>.
-							</div>
+								OPCIFORME propose un accompagnement <b>individualisé</b>, des interventions modulaires et une approche pédagogique différenciée auprès d’un public <b>hétérogène</b> dans le cadre de la formation <b>tout au long de la vie</b> :
+                                <br><br><b>
+                                - Bénéficiaires du RSA ou de l’ASS<br>
+                                - Actifs occupés<br>
+                                - Travailleurs handicapés reconnus CDAPH<br>
+                                - Demandeurs d’emplois (jeunes ou adultes)<br>
+                                - Etudiants
+                                </b></div>
 						</div>
 					</div>
 				</div>
@@ -96,15 +100,19 @@
 							<div class="iconbox-desc">
 								<b>OPCIFORME</b> dispose d'une <b>expertise</b> et d'une connaissance des publics en situation d’illettrisme ou en difficulté 
 								face aux savoirs de bases, et s’inscrit dans une démarche <b>pragmatique</b>, adoptant une pédagogie basée sur 
-								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, et évolutions professionnelles….).
-							</div>
+								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, et évolutions professionnelles….). De plus les types de financement sont multiples :
+                                <br><br><b>
+                                - OPCA (Organisme Paritaire Collecteur Agréé)
+                                <br>- Financement Employeur
+                                <br>- Pôle Emploi
+                                <br>- Financement par le bénéficiaire
+							</b></div>
 						</div>
 					</div>
 
 				</div>
 
 				<div class="col-sm-4">
-
 					<div class="iconbox wow slideInRight">
 						<div class="iconbox-icon">
 							<span class="icon-notebook"></span>
@@ -113,8 +121,15 @@
 							<h3 class="iconbox-title">Partenaires</h3>
 							<div class="iconbox-desc">
 								M. BESBISS possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
-								de référents et de structure en lien avec la sphère professionnelle (bilan avec les financeurs, 
-								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…)
+								de référents et de structures en lien avec la sphère professionnelle (bilan avec les financeurs, 
+								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…) :
+                                <br><br><b>
+                                - OPCA (FORCO, OPCALIA, UNIFAF...)<br>
+                                - Partenaires institutionnels (Pôle Emploi, Mission locale, CAP Emploi, CMA, CCI, collectivités)<br>
+                                - Entreprises (Transgourmet, FEYEL ...)<br>
+                                - Associations<br>
+                                - CNFPT
+                                </b>
 							</div>
 						</div>
 					</div>
@@ -132,9 +147,7 @@
 	<section id="chActions" class="pfblock">
 		<div class="container">
 			<div class="row">
-
 				<div class="col-sm-12">
-
 					<div class="pfblock-header wow fadeInUp">
 						<h2 class="pfblock-title">Champs d'action</h2>
 						<div class="pfblock-line"></div>
@@ -207,7 +220,7 @@
     
     <!-- Testimonials start -->
 
-	<section id="offres" class="pfblock pfblock-gray">
+	<section id="prestations" class="pfblock pfblock-gray">
 
 		<div class="container">
             
@@ -216,41 +229,78 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">Nos propositions disponibles actuellement</h2>
+						<h2 class="pfblock-title">TYPES DE PRESTATIONS PROPOSEES PAR OPCIFORME</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							Ci-dessous les différentes interventions ou formations en cours :
 						</div>
 					</div>
-
 				</div>
-
 			</div>
 
             <div class="row">
-
 			<div id="cbp-qtrotator" class="cbp-qtrotator">
                 <div class="cbp-qtcontent">
-                    <img class="qtrotator" src="assets/images/mulhouse.jpg" alt="Mulhouse"/>
                     <blockquote>
-                      <p>Offre1.</p>
-                      <footer>Mulhouse</footer>
+                      <p><b>Socle de connaissances et compétences professionnelles</b></p>
+                        <img class="qtrotator" src="assets/images/competences.png" />
+                        <footer><br>
+                            - la communication en français<br>
+                            - l'utilisation des règles de base en calcul et en raisonnement logique<br>
+                            - l'utilisation des techniques usuelles de l'information et de la communication numérique<br>
+                            - l'aptitude à travailler dans le cadre des règles définies d'un travail en équipe<br>
+                            - l'aptitude à travailler en autonomie et à réaliser un objectif individuel<br>
+                            - la capacité d'apprendre à apprendre<br>
+                            - la maîtrise des gestes et postures et le respect des règles d'hygiène ou de sécurité et des règles environnementales élémentaires
+                        </footer>
                     </blockquote>
                 </div>
                 <div class="cbp-qtcontent">
-                    <img class="qtrotator" src="assets/images/colmar.jpg" alt="Colmar" />
                     <blockquote>
-                      <p>Proposition2.</p>
-                      <footer>Colmar</footer>
+                        <p><b>Apprentissage ou remise à niveau de la langue française</b></p>
+                        <img class="qtrotator" src="assets/images/france.png" />
+                      <footer><br>Français Langue Etrangère (FLE)/Français Langue d’Intégration (FLI)</footer>
                     </blockquote>
                 </div>
-
+                
+                <div class="cbp-qtcontent">    
+                    <blockquote>
+                        <p><b>Conseil/Coaching/Accompagnement</b></p>
+                        <img class="qtrotator" src="assets/images/coaching.png" />
+                        <footer><br>
+                          - Reconversions et projets professionnels<br>
+                          - Appui et aide à la création d’entreprise<br>
+                          - Techniques de Recherche d’Emploi (TRE) : CV, lettre de motivation, entretien d’embauche…
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="cbp-qtcontent">
+                    <blockquote>
+                        <p><b>Communication</b></p>
+                        <img class="qtrotator" src="assets/images/com.png" />
+                        <footer><br>
+                            - Communiquer de façon efficace (Code Oral/Code Ecrit)<br>
+                            - Gérer les entretiens professionnels<br>
+                            - Prendre la parole en public<br>
+                            - Pouvoir persuader, argumenter, illustrer, développer son point de vue lors d’entretiens professionnels
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="cbp-qtcontent">
+                    <blockquote>
+                        <p><b>Manager/Encadrer une équipe</b></p>
+                        <img class="qtrotator" src="assets/images/equipe.png" />
+                        <footer><br>
+                            - Savoir se positionner et s’affirmer comme manager ou encadrant<br>
+                            - Savoir stimuler et développer les relations interpersonnelles et l'esprit d'équipe pour atteindre les objectifs<br>
+                            - Savoir motiver ses collaborateurs dans le cadre de contrats d’objectifs<br>
+                            - Savoir gérer et surmonter les situations de blocages<br> 
+                            - Savoir déléguer et gagner en performance
+                        </footer>
+                    </blockquote>
+                </div>
             </div>		
-
-            </div><!-- .row -->
-
-					
-		</div><!-- .row -->
+            </div>
+		</div>
 	</section>
 
 	<!-- Testimonial end -->
