@@ -120,7 +120,7 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Partenaires</h3>
 							<div class="iconbox-desc">
-								M. BESBISS possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
+								OPCIFORME possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
 								de référents et de structures en lien avec la sphère professionnelle (bilan avec les financeurs, 
 								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…) :
                                 <br><br><b>
