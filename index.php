@@ -54,7 +54,6 @@
                             
                             <b>OPCIFORME</b> a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de <b>15 ans 
                             d’expérience</b> dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
-							La société intervient depuis de nombreuses années dans le champ de <b>la formation et de l'emploi</b>. 
 							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage <b>en 
 							partenariat avec l’ANCLI, le CRAPT CARRLI</b> et tous les intervenants qui se sont saisis de la problématique 
                             de <b>l’illettrisme et des savoirs de base</b>.
@@ -78,13 +77,13 @@
 							<h3 class="iconbox-title">Public visé</h3>
 							<div class="iconbox-desc">
 								Nous proposons un accompagnement <b>individualisé</b>, des interventions modulaires et une approche pédagogique différenciée auprès d’un public <b>hétérogène</b> dans le cadre de la formation <b>tout au long de la vie</b> :
-                                <br><br><b>
-                                - Bénéficiaires du RSA ou de l’ASS<br>
-                                - Actifs occupés<br>
-                                - Travailleurs handicapés reconnus CDAPH<br>
-                                - Demandeurs d’emplois (jeunes ou adultes)<br>
-                                - Etudiants
-                                </b></div>
+                                <br><br><b><ul>
+                                <li> Bénéficiaires du RSA ou de l’ASS<br>
+                                <li> Actifs occupés<br>
+                                <li> Travailleurs handicapés reconnus CDAPH<br>
+                                <li> Demandeurs d’emplois (jeunes ou adultes)<br>
+                                <li> Etudiants
+                                </ul></b></div>
 						</div>
 					</div>
 				</div>
@@ -100,13 +99,13 @@
 							<div class="iconbox-desc">
 								<b>OPCIFORME</b> dispose d'une <b>expertise</b> et d'une connaissance des publics en situation d’illettrisme ou en difficulté 
 								face aux savoirs de bases, et s’inscrit dans une démarche <b>pragmatique</b>, adoptant une pédagogie basée sur 
-								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, et évolutions professionnelles….). De plus les types de financement sont multiples :
-                                <br><br><b>
-                                - OPCA (Organisme Paritaire Collecteur Agréé)
-                                <br>- Financement Employeur
-                                <br>- Pôle Emploi
-                                <br>- Financement par le bénéficiaire
-							</b></div>
+								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, et évolutions professionnelles….). De plus, les types de financements sont multiples :
+                                <br><br><b><ul>
+                                <li> OPCA (Organisme Paritaire Collecteur Agréé)
+                                <br><li> Financement Employeur
+                                <br><li> Pôle Emploi
+                                <br><li> Financement par le bénéficiaire
+							</ul></b></div>
 						</div>
 					</div>
 
@@ -123,13 +122,13 @@
 								La société possède de nombreuses <b>références</b>, un large <b>réseau d’entreprises partenaires</b>, 
 								de référents et de structures en lien avec la sphère professionnelle (bilan avec les financeurs, 
 								propositions de formation, consultations, visites en entreprise, mises en place de dispositifs…) :
-                                <br><br><b>
-                                - OPCA (FORCO, OPCALIA, UNIFAF...)<br>
-                                - Partenaires institutionnels (Pôle Emploi, Mission locale, CAP Emploi, CMA, CCI, collectivités)<br>
-                                - Entreprises (Transgourmet, FEYEL ...)<br>
-                                - Associations<br>
-                                - CNFPT
-                                </b>
+                                <br><br><b><ul>
+                                <li> OPCA (FORCO, OPCALIA, UNIFAF...)<br>
+                                <li> Partenaires institutionnels (Pôle Emploi, Mission locale, CAP Emploi, CMA, CCI, collectivités)<br>
+                                <li> Entreprises (Transgourmet, FEYEL ...)<br>
+                                <li> Associations<br>
+                                <li> CNFPT
+                                </ul></b>
 							</div>
 						</div>
 					</div>
@@ -153,16 +152,16 @@
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle" style="text-align: justify">
 						<b>OPCIFORME</b> est en mesure d’intervenir dans les différentes phases de la construction d’un parcours 
-						professionnels et formatif adapté, essentiellement dans : <br/><br/>
-							<div>
-								- <b>L’Orientation Professionnelle</b> (bilan de compétences, élaboration de projets professionnels, 
+						professionnel et formatif adaptés, essentiellement dans : <br/><br/>
+							<div><ul>
+								 <li><b>L’Orientation Professionnelle</b> (bilan de compétences, élaboration de projets professionnels, 
 								mises en relations, recherche de formation, montage de dossiers..) <br/>
-								- Le <b>Conseil</b> (transmission d’informations, appui…) <br/>
-								- L’<b>Insertion</b> (Sécurisation professionnelle…) <br/>
-								- La <b>Formation</b> (Remise à niveau, Savoirs de bases, socle de connaissances et compétences 
+								<li> Le <b>Conseil</b> (transmission d’informations, appui…) <br/>
+								<li> L’<b>Insertion</b> (Sécurisation professionnelle…) <br/>
+								<li> La <b>Formation</b> (Remise à niveau, Savoirs de bases, socle de connaissances et compétences 
 								professionnelles, Français Langue Etrangère, communication…) <br/>
-								- L’<b>Emploi</b> (Technique de Recherche d’Emploi : CV, Lettre, entretien d’embauche…) <br/>						
-							</div>
+								<li> L’<b>Emploi</b> (Techniques de Recherche d’Emploi : CV, Lettre, entretien d’embauche…) <br/>						
+                                </ul></div>
 						</div>
 					</div>
 
@@ -243,22 +242,22 @@
                     <blockquote>
                       <p><b>Socle de connaissances et compétences professionnelles</b></p>
                         <img class="qtrotator" src="assets/images/competences.png" />
-                        <footer><br>
-                            - la communication en français<br>
-                            - l'utilisation des règles de base en calcul et en raisonnement logique<br>
-                            - l'utilisation des techniques usuelles de l'information et de la communication numérique<br>
-                            - l'aptitude à travailler dans le cadre des règles définies d'un travail en équipe<br>
-                            - l'aptitude à travailler en autonomie et à réaliser un objectif individuel<br>
-                            - la capacité d'apprendre à apprendre<br>
-                            - la maîtrise des gestes et postures et le respect des règles d'hygiène ou de sécurité et des règles environnementales élémentaires
-                        </footer>
+                        <footer><br><ul>
+                            <li> la communication en français<br>
+                            <li> l'utilisation des règles de base en calcul et en raisonnement logique<br>
+                            <li> l'utilisation des techniques usuelles de l'information et de la communication numérique<br>
+                            <li> l'aptitude à travailler dans le cadre des règles définies d'un travail en équipe<br>
+                            <li> l'aptitude à travailler en autonomie et à réaliser un objectif individuel<br>
+                            <li> la capacité d'apprendre à apprendre<br>
+                            <li> la maîtrise des gestes et postures et le respect des règles d'hygiène ou de sécurité et des règles environnementales élémentaires
+                        </ul></footer>
                     </blockquote>
                 </div>
                 <div class="cbp-qtcontent">
                     <blockquote>
                         <p><b>Apprentissage ou remise à niveau de la langue française</b></p>
                         <img class="qtrotator" src="assets/images/france.png" />
-                      <footer><br>Français Langue Etrangère (FLE)/Français Langue d’Intégration (FLI)</footer>
+                      <footer><br><ul><li>Français Langue Etrangère (FLE)/Français Langue d’Intégration (FLI)</ul></footer>
                     </blockquote>
                 </div>
                 
@@ -266,36 +265,36 @@
                     <blockquote>
                         <p><b>Coaching/Accompagnement</b></p>
                         <img class="qtrotator" src="assets/images/coaching.png" />
-                        <footer><br>
-                          - Reconversions et projets professionnels<br>
-                          - Appui et aide à la création d’entreprise<br>
-                          - Techniques de Recherche d’Emploi (TRE) : CV, lettre de motivation, entretien d’embauche…
-                        </footer>
+                        <footer><br><ul>
+                          <li> Reconversions et projets professionnels<br>
+                          <li> Appui et aide à la création d’entreprise<br>
+                          <li> Techniques de Recherche d’Emploi (TRE) : CV, lettre de motivation, entretien d’embauche…
+                        </ul></footer>
                     </blockquote>
                 </div>
                 <div class="cbp-qtcontent">
                     <blockquote>
                         <p><b>Communication</b></p>
                         <img class="qtrotator" src="assets/images/com.png" />
-                        <footer><br>
-                            - Communiquer de façon efficace (Code Oral/Code Ecrit)<br>
-                            - Gérer les entretiens professionnels<br>
-                            - Prendre la parole en public<br>
-                            - Pouvoir persuader, argumenter, illustrer, développer son point de vue lors d’entretiens professionnels
-                        </footer>
+                        <footer><br><ul>
+                            <li> Communiquer de façon efficace (Code Oral/Code Ecrit)<br>
+                            <li> Gérer les entretiens professionnels<br>
+                            <li> Prendre la parole en public<br>
+                            <li> Pouvoir persuader, argumenter, illustrer, développer son point de vue lors d’entretiens professionnels
+                        </ul></footer>
                     </blockquote>
                 </div>
                 <div class="cbp-qtcontent">
                     <blockquote>
                         <p><b>Manager/Encadrer une équipe</b></p>
                         <img class="qtrotator" src="assets/images/equipe.png" />
-                        <footer><br>
-                            - Savoir se positionner et s’affirmer comme manager ou encadrant<br>
-                            - Savoir stimuler et développer les relations interpersonnelles et l'esprit d'équipe pour atteindre les objectifs<br>
-                            - Savoir motiver ses collaborateurs dans le cadre de contrats d’objectifs<br>
-                            - Savoir gérer et surmonter les situations de blocages<br> 
-                            - Savoir déléguer et gagner en performance
-                        </footer>
+                        <footer><br><ul>
+                            <li> Savoir se positionner et s’affirmer comme manager ou encadrant<br>
+                            <li> Savoir stimuler et développer les relations interpersonnelles et l'esprit d'équipe pour atteindre les objectifs<br>
+                            <li> Savoir motiver ses collaborateurs dans le cadre de contrats d’objectifs<br>
+                            <li> Savoir gérer et surmonter les situations de blocages<br> 
+                            <li> Savoir déléguer et gagner en performance
+                        </ul></footer>
                     </blockquote>
                 </div>
             </div>		
