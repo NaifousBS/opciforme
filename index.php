@@ -53,9 +53,9 @@
 						<div class="pfblock-subtitle" style="text-align: justify; margin:5px">
                             
                             <b>OPCIFORME</b> a été créé en <b>décembre 2014</b> par Mouloud BESBISS qui dispose de <b>15 ans 
-                            d’expérience</b> dans le champ de <b>l’orientation de la formation et de l’emploi</b>. 
-							M. BESBISS, responsable de la société, a assisté à nombreuses réunions de travail et comités de pilotage <b>en 
-							partenariat avec l’ANCLI, le CRAPT CARRLI</b> et tous les intervenants qui se sont saisis de la problématique 
+                            d’expérience</b> dans le champ de <b>l’orientation, de la formation et de l’emploi</b>. 
+							M. BESBISS, responsable de la société, a assisté à de nombreuses réunions de travail et comités de pilotage <b>en 
+							partenariat avec l’ANLCI, le CRAPT CARRLI</b> et tous les intervenants qui se sont saisis de la problématique 
                             de <b>l’illettrisme et des savoirs de base</b>.
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 							<div class="iconbox-desc">
 								<b>OPCIFORME</b> dispose d'une <b>expertise</b> et d'une connaissance des publics en situation d’illettrisme ou en difficulté 
 								face aux savoirs de bases, et s’inscrit dans une démarche <b>pragmatique</b>, adoptant une pédagogie basée sur 
-								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, et évolutions professionnelles….). De plus, les types de financements sont multiples :
+								des <b>objectifs professionnels différenciés</b> (Accès à l’emploi, projets, évolutions professionnelles….). De plus, les types de financements sont multiples :
                                 <br><br><b><ul>
                                 <li> OPCA (Organisme Paritaire Collecteur Agréé)
                                 <br><li> Financement Employeur
@@ -312,7 +312,7 @@
 			<div class="row">
 
 				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">Un premier plan de formation? Une réorientation? Une remise à niveau ?</h2>
+					<h2 class="wow slideInRight" data-wow-delay=".1s">Un premier plan de formation? Une réorientation? Une remise à niveau?</h2>
 					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
 						N'hésitez pas <i class="fa fa-smile-o" aria-hidden="true"></i>
 					</div>
