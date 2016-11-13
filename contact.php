@@ -1,4 +1,8 @@
-<?php include('header.php')?>
+<?php 
+include('header.php');
+require_once 'assets/swiftmailer/lib/swift_required.php';
+include_once 'assets/php/definition.php';
+?>
 <?php
         $errName= "";
         $errEmail = "";
@@ -12,10 +16,10 @@ if (isset($_POST["submit"])) {
 		$message = htmlspecialchars($_POST['message']);
 		$human =intval($_POST['human']);
 		$from = 'OPCIFORME.fr'; 
-		$to = 'soufian1993@hotmail.fr';
+		$to = 'opciforme@gmail.com';
 		$subject = 'Nouveau message du site OPCIFORME.fr';
 		
-		$body = "De:".$name."\n Mail:".$email."\n Message:\n ".$message;
+		$body = "De: ".$name."\nMail: ".$email."\nMessage: \n\n".$message;
  
 		// Check if name has been entered
 		if (!$_POST['name']) {
@@ -39,13 +43,26 @@ if (isset($_POST["submit"])) {
  
 // Envoi du mail s'il n'y a pas d'erreur
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-	if (mail ($to, $subject, $body, $from)) {
+     
+        $transport = Swift_SmtpTransport::newInstance(SMTP, 465, ENCRYPTION)
+            ->setUsername(GMAIL)
+            ->setPassword(PWD);
+
+        $mailer = Swift_Mailer::newInstance($transport);
+
+        $messageSwift = Swift_Message::newInstance($subject)
+          ->setFrom(array($email => $name))
+          ->setTo(array(GMAIL))
+          ->setBody($body);
+
+        $envoi = $mailer->send($messageSwift);
+    
 		$result='<div class="alert alert-success">Merci! Nous vous répondrons rapidement! <i class="fa fa-smile-o" aria-hidden="true"></i></div>';
-	} else {
+	 
+} else {
 		$result='<div class="alert alert-danger">Désolé il y a eu une erreur lors de l\'envoi, réessayez SVP.</div>';
 	}
 }
-	}
 ?>
 			<div class="row">
 
