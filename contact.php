@@ -15,9 +15,9 @@ if (isset($_POST["submit"])) {
 		$email = htmlspecialchars($_POST['email']);
 		$message = htmlspecialchars($_POST['message']);
 		$human =intval($_POST['human']);
-		$from = 'OPCIFORME.fr'; 
+		$from = 'OPCIFORME'; 
 		$to = 'opciforme@gmail.com';
-		$subject = 'Nouveau message du site OPCIFORME.fr';
+		$subject = 'Nouveau message du site OPCIFORME';
 		
 		$body = "De: ".$name."\nMail: ".$email."\nMessage: \n\n".$message;
  

@@ -240,7 +240,8 @@
 			<div id="cbp-qtrotator" class="cbp-qtrotator">
                 <div class="cbp-qtcontent">
                     <blockquote>
-                      <p><b>Socle de connaissances et compétences professionnelles</b></p>
+                        <p><b>Socle de connaissances et compétences professionnelles</b></p>
+                        <p style="font-size: 1.5em"><b>Habilitation certification cléA du COPAREF</b></p>
                         <img class="qtrotator" src="assets/images/competences.png" />
                         <footer><br><ul>
                             <li> la communication en français<br>
