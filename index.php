@@ -258,7 +258,10 @@
                     <blockquote>
                         <p><b>Apprentissage ou remise à niveau de la langue française</b></p>
                         <img class="qtrotator" src="assets/images/france.png" />
-                      <footer><br><ul><li>Français Langue Etrangère (FLE)/Français Langue d’Intégration (FLI)</ul></footer>
+                      <footer><br><ul>
+                          <li> Français Langue Etrangère (FLE)<br>
+                          <li> Français Langue d’Intégration (FLI)<br>
+                          </ul></footer>
                     </blockquote>
                 </div>
                 
@@ -281,7 +284,7 @@
                             <li> Communiquer de façon efficace (Code Oral/Code Ecrit)<br>
                             <li> Gérer les entretiens professionnels<br>
                             <li> Prendre la parole en public<br>
-                            <li> Pouvoir persuader, argumenter, illustrer, développer son point de vue lors d’entretiens professionnels
+                            <li> Pouvoir persuader, argumenter, illustrer, développer son point de vue lors d’entretiens professionnels<br>
                         </ul></footer>
                     </blockquote>
                 </div>
@@ -294,7 +297,7 @@
                             <li> Savoir stimuler et développer les relations interpersonnelles et l'esprit d'équipe pour atteindre les objectifs<br>
                             <li> Savoir motiver ses collaborateurs dans le cadre de contrats d’objectifs<br>
                             <li> Savoir gérer et surmonter les situations de blocages<br> 
-                            <li> Savoir déléguer et gagner en performance
+                            <li> Savoir déléguer et gagner en performance<br>
                         </ul></footer>
                     </blockquote>
                 </div>
@@ -322,14 +325,15 @@
                 </div>
                 <div class="cbp-qtcontent">
                     <blockquote>
-                        <p><b>Ecrivain public - Rédaction & Correction de tout type d'écrit</b></p>
+                        <p><b>Ecrivain public</b></p>
+                        <p style="font-size: 1.5em"><b>Rédaction & Correction de tout type d'écrit</b></p>
                         <img class="qtrotator" src="assets/images/ecrivain.png" />
                         <footer><br><ul>
                             <li> Courriers administratifs<br>
                             <li> Rapports<br>
                             <li> Bilans<br>
                             <li> Thèses<br> 
-                            <li> Mémoires
+                            <li> Mémoires<br>
                         </ul></footer>
                     </blockquote>
                 </div>
