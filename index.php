@@ -298,6 +298,41 @@
                         </ul></footer>
                     </blockquote>
                 </div>
+                <div class="cbp-qtcontent">
+                    <blockquote>
+                        <p><b>Préparation aux oraux</b></p>
+                        <img class="qtrotator" src="assets/images/oral.png" />
+                        <footer><br><ul>
+                            <li> Examens<br>
+                            <li> Concours<br>
+                            <li> Bac Français<br>
+                            <li> Entretiens<br>
+                        </ul></footer>
+                    </blockquote>
+                </div>
+                <div class="cbp-qtcontent">
+                    <blockquote>
+                        <p><b>Aide à la création d'entreprise</b></p>
+                        <img class="qtrotator" src="assets/images/entreprise.png" />
+                        <footer><br><ul>
+                            <li> Conseil<br>
+                            <li> Accompagnement<br>
+                        </ul></footer>
+                    </blockquote>
+                </div>
+                <div class="cbp-qtcontent">
+                    <blockquote>
+                        <p><b>Ecrivain public - Rédaction & Correction de tout type d'écrit</b></p>
+                        <img class="qtrotator" src="assets/images/ecrivain.png" />
+                        <footer><br><ul>
+                            <li> Courriers administratifs<br>
+                            <li> Rapports<br>
+                            <li> Bilans<br>
+                            <li> Thèses<br> 
+                            <li> Mémoires
+                        </ul></footer>
+                    </blockquote>
+                </div>
             </div>		
             </div>
 		</div>
