@@ -85,7 +85,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 								</button>
 							</div>
 						</div>
-						<br/><br/>
+						<br/>
+                            <div class="form-group">
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <?php
+                                            echo $result;
+                                        ?>	
+                                    </div>
+                            </div>
+                        <br/>
 							<form class="form-horizontal" role="form" method="post" action="contact.php">
 								<div class="form-group">
 									<label for="name" class="col-sm-2 control-label">Nom</label>
@@ -127,13 +135,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                     <button type="button" name="retour" class="btn btn-warning" onclick="window.location='index.php'">
                                         Retour
                                     </button>
-								<div class="form-group">
-                                    <div class="col-sm-10 col-sm-offset-2">
-                                        <?php
-                                            echo $result;
-                                        ?>	
-                                    </div>
-                                </div>
 							</form>
 						</div>
 					</div>

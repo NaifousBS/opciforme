@@ -1,7 +1,10 @@
+<?php require('visites.php');?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
-    <?php include('header.php')?>
-<body>
+    <?php include('header.php');?>
+    <body>
 
 	<!-- Preloader -->
 
