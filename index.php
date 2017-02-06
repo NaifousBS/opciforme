@@ -329,7 +329,7 @@
                 <div class="cbp-qtcontent">
                     <blockquote>
                         <p><b>Ecrivain public</b></p>
-                        <p style="font-size: 1.5em"><b>Rédaction & Correction de tout type d'écrit</b></p>
+                        <p style="font-size: 1.5em"><b>Rédaction & Correction de tous types d'écrits</b></p>
                         <img class="qtrotator" src="assets/images/ecrivain.png" />
                         <footer><br><ul>
                             <li> Courriers administratifs<br>

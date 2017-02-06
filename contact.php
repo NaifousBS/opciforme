@@ -69,14 +69,14 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header">
-						<h2 class="pfblock-title" style="margin-top:100px">Envoyez-nous un message</h2>
+						<h2 class="pfblock-title" style="margin-top:100px">Formulaire de contact</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 						<div class="row">
 							<div class="col-sm-8 col-sm-offset-2">
-								<button type="button" class="btn btn-primary" onclick="window.open('https://www.facebook.com/profile.php?id=100008769211783&fref=ts')">
+								<!--<button type="button" class="btn btn-primary" onclick="window.open('index.html')">
 									<i class="fa fa-facebook"></i>
-								</button>
+								</button>-->
 								<button type="button" class="btn btn-primary" onclick="window.open('https://fr.linkedin.com/in/mouloud-besbiss-977a4a68')">
 									<i class="fa fa-linkedin" aria-hidden="true"></i>
 								</button>
