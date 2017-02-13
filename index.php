@@ -355,7 +355,7 @@
 			<div class="row">
 
 				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">Un premier plan de formation? Une réorientation? Une remise à niveau?</h2>
+					<h2 class="wow slideInRight" data-wow-delay=".1s">Pour un premier contact ou pour toute demande d'information</h2>
 					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
 						N'hésitez pas <i class="fa fa-smile-o" aria-hidden="true"></i>
 					</div>
