@@ -135,13 +135,37 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
+				
 
 			</div><!-- .row -->
+			
+			
+			
 		</div><!-- .container -->
 	</section>
 
+    <section class="pfblock">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">PARTENAIRES</h2>
+                        <div class="pfblock-line"></div>
+						<div class="pfblock-subtitle" style="text-align: center">
+                       <img src="assets/images/pole_emploi.png" class="img-thumbnail" alt="Pôle Emploi" width="304" height="236">
+                       <img src="assets/images/forco.png" class="img-thumbnail" alt="Forco" width="304" height="236">
+                       <img src="assets/images/cma.jpg" class="img-thumbnail" alt="CMA" width="304" height="236">
+                       <img src="assets/images/unifaf.png" class="img-thumbnail" alt="Unifaf" width="304" height="236">
+                       <img src="assets/images/cci.png" class="img-thumbnail" alt="CCI" width="304" height="236">
+                       <img src="assets/images/opcalia.png" class="img-thumbnail" alt="Opcalia" width="304" height="236">
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	<!-- Services end -->
     
 	<!-- Portfolio start -->
@@ -244,7 +268,7 @@
                 <div class="cbp-qtcontent">
                     <blockquote>
                         <p><b>Socle de connaissances et compétences professionnelles</b></p>
-                        <p style="font-size: 1.5em"><b>Habilitation certification cléA du COPAREF</b></p>
+                        <p style="font-size: 1.5em"><b>Habilitation <a href="assets/docs/plaquette_cleA.pdf" target="_blank">certification cléA du COPANEF</a></b></p>
                         <img class="qtrotator" src="assets/images/competences.png" />
                         <footer><br><ul>
                             <li> la communication en français<br>
@@ -356,15 +380,15 @@
 
 				<div class="col-md-12 col-lg-12">
 					<h2 class="wow slideInRight" data-wow-delay=".1s">Pour un premier contact ou pour toute demande d'information</h2>
+					<h3>visualisez la plaquette CléA du COPANEF <a href= "assets/docs/plaquette_cleA.pdf" target="_blank">disponible ici</a></h3>
 					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						N'hésitez pas <i class="fa fa-smile-o" aria-hidden="true"></i>
+						Et n'hésitez pas <i class="fa fa-smile-o" aria-hidden="true"></i>
 					</div>
 				</div>
 
 				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
 					<a href="contact.php" class="btn btn-lg">Contactez-nous !</a>
 				</div>
-
 			</div>
 		</div>
 	</section>
