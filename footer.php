@@ -16,7 +16,7 @@
                         <strong><i class="fa fa-at" aria-hidden="true"></i></strong> : opciforme@gmail.com<br><br>
 					</p>
                     <p class="copyright">
-                        <strong>© 2017 OPCIFORME - Tous droits réservés</strong> 
+                        <strong>© 2018 OPCIFORME - Tous droits réservés</strong> 
 					</p>
 				</div>
 			</div>
