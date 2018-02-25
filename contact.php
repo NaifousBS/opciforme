@@ -40,7 +40,8 @@ if (isset($_POST["submit"])) {
 		if ($human !== 5) {
 			$errHuman = 'Résultat incorrect';
 		}
- 
+    
+try {
 // Envoi du mail s'il n'y a pas d'erreur
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
      
@@ -62,6 +63,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 } else {
 		$result='<div class="alert alert-danger">Désolé il y a eu une erreur lors de l\'envoi, réessayez SVP.</div>';
 	}
+    } catch (Exception $e) {
+     echo '<script>console.log(\'Exception reçue : '.$e->getMessage().'\');</script>';
+     $result='<div class="alert alert-danger">Une erreur est survenue, veuillez nous excuser pour le désagrément.</div>';
+}
 }
 ?>
 			<div class="row">
