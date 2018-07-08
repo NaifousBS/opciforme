@@ -413,6 +413,7 @@
                             <div class="iconbox-desc">
                                 <ul>
                                     <li>Lien vers la plaquette cléA du COPANEF : <a href="assets/docs/plaquette_cleA.pdf" target="_blank">disponible ici</a>.</li>
+                                    <li>Pour consulter le catalogue de formations : <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">cliquez ici</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -423,6 +424,40 @@
             <!-- .container -->
         </div>
     </section>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Liens des catalogues de formation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+            <li><a href="assets/docs/catalogues/Catalogue+%20Programme%20de%20formation.docx">Programme de formation</a></li>
+            <li><a href="assets/docs/catalogues/Am%C3%A9liorer%20son%20expression%20orale.doc">Améliorer son expression orale</a></li>
+            <li><a href="assets/docs/catalogues/Appui%20%C3%A0%20la%20cr%C3%A9ation%20d'entreprise.doc">Appui à la création d'entreprise</a></li>
+            <li><a href="assets/docs/catalogues/Catalogue-%20formation%20Cl%C3%A9A.docx">Formation CléA</a></li>
+            <li><a href="assets/docs/catalogues/Catlaogue_%20l'animation%20de%20r%C3%A9union%20d'%C3%A9quipe%20ou%20de%20service.doc">L'animation de réunion d'équipe ou de service</a></li>
+            <li><a href="assets/docs/catalogues/Catlaogue_%20Prendre%20la%20parole%20en%20public.doc">Prendre la parole en public</a></li>
+                        <li><a href="assets/docs/catalogues/Catlaogue_Manager_Encadrer%20une%20%C3%A9quipe.doc">Manager/encadrer une équipe</a></li>            <li><a href="assets/docs/catalogues/Conduite%20d'entretiens%20professionnels.docx">Conduite d'entretiens professionnels</a></li>
+                                    <li><a href="assets/docs/catalogues/Ecrire%20sans%20faute.docx">Ecrire sans faute</a></li>
+                                                <li><a href="assets/docs/catalogues/Elaborer%20et%20r%C3%A9aliser%20%20son%20projet%20professionnel.doc">Elaborer et réaliser son projet professionnel</a></li>            <li><a href="assets/docs/catalogues/Fran%C3%A7ais%20Langue%20Etrang%C3%A8re.docx">Français Langue Etrangère</a></li>
+            <li><a href="assets/docs/catalogues/R%C3%A9diger%20un%20CV.doc">Rédiger un CV</a></li>
+                                   <li><a href="assets/docs/catalogues/R%C3%A9diger%20un%20rapport_Une%20note%20de%20synth%C3%A8se.docx">Rédiger un rapport/note de synthèse</a></li>
+                                   <li><a href="assets/docs/catalogues/r%C3%A9diger%20une%20lettre%20de%20motivation.doc">Rédiger une lettre de motivation</a></li>            
+                                    
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <!--<button type="button" class="btn btn-primary">Send message</button>-->
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- CallToAction start -->
 
