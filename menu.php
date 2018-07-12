@@ -18,8 +18,10 @@
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#accueil">Accueil</a></li>
-                        <li><a href="#chActions">Champs d'action</a></li>
-                        <li><a href="#prestations">Nos prestations</a></li>
+						<li><a href="#parts">Partenaires</a></li>
+						<li><a href="#chActions">Champs d'action</a></li>
+                        <li><a href="#prestations">Prestations</a></li>
+						<li><a href="#ressources">Docs</a></li>
 						<li><a href="#calltoaction">Contact</a></li>
 					</ul>
 				</div>

@@ -197,7 +197,7 @@
         <!-- .container -->
     </section>
 
-    <section class="pfblock">
+    <section class="pfblock" id="parts">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
