@@ -1,0 +1,23 @@
+RedirectMatch 403 ^/assets/?$
+RedirectMatch 403 ^/assets/docs/?$
+RedirectMatch 403 ^/assets/php/?$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
