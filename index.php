@@ -1,4 +1,5 @@
-<?php require('visites.php');
+<?php 
+require('visites.php');
 ?>
 
 
@@ -53,15 +54,20 @@
                 <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
 
                     <div class="pfblock-header wow fadeInUp" style="border-left: 1px solid #ec9c4b!important;border-right: 1px solid #ec9c4b!important; border-radius:1px;">
-                        <p style="text-align: center">
-                            <img class="logoAccueil" src="assets/images/opciforme.png" />
-                        </p>
+                        <div class="logos">
+                            <img class="logoAccueil" src="assets/images/opciforme.png" alt="logo opciforme"/>
+                            <div class="logoDD">
+                                <div></div>
+                                <img src="assets/images/datadocke.png" alt="datadocké"/>
+                                <div></div>
+                            </div>
+                        </div>
                         <div class="pfblock-line"></div>
                         <div class="pfblock-subtitle" style="text-align: justify; margin:5px">
 
                             <b>OPCIFORME</b> a été créé en
                             <b>décembre 2014</b> par Mouloud BESBISS qui dispose de
-                            <b>16 ans d’expérience
+                            <b>20 ans d’expérience
                             </b> dans le champ de
                             <b>l’orientation, de la formation et de l’emploi</b>. Notre expertise s'est forgée au sein d'un
                             <b>solide réseau</b> - au contact d'un public varié, de partenaires de terrain diversifiés, de praticiens,
@@ -207,10 +213,17 @@
                         <div class="pfblock-subtitle" style="text-align: center">
                             <div class="row">
                                 <img src="assets/images/pole_emploi.png" class="img-thumbnail" alt="Pôle Emploi" width="304" height="236">
+                            </div>
+                            <br>
+                            <div class="row">
                                 <img src="assets/images/forco.png" class="img-thumbnail" alt="Forco" width="304" height="236">
                             </div>
+                            <br>
                             <div class="row">
                                 <img src="assets/images/unifaf.png" class="img-thumbnail" alt="Unifaf" width="304" height="236">
+                            </div>
+                            <br>
+                            <div class="row">
                                 <img src="assets/images/opcalia.png" class="img-thumbnail" alt="Opcalia" width="304" height="236">
                             </div>
                         </div>
@@ -544,9 +557,23 @@
                                         </span>
                                     </li>
                                     <li>
+                                        <span>Afficher le
+                                            <b>
+                                                <a href="assets/docs/Referentiel-clea-certif-pro-2020-1.pdf" target="_blank">Réferentiel cléA</a>
+                                            </b>
+                                        </span>
+                                    </li>
+                                    <li>
                                         <span>Consulter le
                                             <b>
-                                                <a style="cursor: pointer" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">catalogue de formations</a>
+                                                <a style="cursor: pointer" data-toggle="modal" data-target="#catalogueModal" data-whatever="@mdo">catalogue de formations</a>
+                                            </b>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>Consulter le
+                                            <b>
+                                                <a style="cursor: pointer" data-toggle="modal" data-target="#recueilModal" data-whatever="@mdo">recueil de textes</a>
                                             </b>
                                         </span>
                                     </li>
@@ -561,7 +588,7 @@
         </div>
     </section>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="catalogueModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -573,22 +600,22 @@
                 <div class="modal-body">
                     <ul>
                         <li>
-                            <a href="assets/docs/catalogues/Am%C3%A9liorer%20son%20expression%20orale.pdf" target="_blank">Améliorer son expression orale</a>
+                            <a href="assets/docs/catalogues/Ameliorer%20son%20expression%20orale.pdf" target="_blank">Améliorer son expression orale</a>
                         </li>
                         <li>
                             <a href="assets/docs/catalogues/Appui%20%C3%A0%20la%20cr%C3%A9ation%20d'entreprise.pdf" target="_blank">Appui à la création d'entreprise</a>
                         </li>
                         <li>
-                            <a href="assets/docs/catalogues/Catalogue-%20formation%20Cl%C3%A9A.pdf" target="_blank">Formation CléA</a>
+                            <a href="assets/docs/catalogues/Catalogue_formation%20Cl%C3%A9A.pdf" target="_blank">Formation CléA</a>
                         </li>
                         <li>
-                            <a href="assets/docs/catalogues/Catlaogue_%20l'animation%20de%20r%C3%A9union%20d'%C3%A9quipe%20ou%20de%20service.pdf" target="_blank">L'animation de réunion d'équipe ou de service</a>
+                            <a href="assets/docs/catalogues/Catalogue_l'animation%20de%20r%C3%A9union%20d'%C3%A9quipe%20ou%20de%20service.pdf" target="_blank">L'animation de réunion d'équipe ou de service</a>
                         </li>
                         <li>
-                            <a href="assets/docs/catalogues/Catlaogue_%20Prendre%20la%20parole%20en%20public.pdf" target="_blank">Prendre la parole en public</a>
+                            <a href="assets/docs/catalogues/Catalogue_Prendre%20la%20parole%20en%20public.pdf" target="_blank">Prendre la parole en public</a>
                         </li>
                         <li>
-                            <a href="assets/docs/catalogues/Catlaogue_Manager_Encadrer%20une%20%C3%A9quipe.pdf" target="_blank">Manager/encadrer une équipe</a>
+                            <a href="assets/docs/catalogues/Catalogue_Manager_Encadrer%20une%20%C3%A9quipe.pdf" target="_blank">Manager/encadrer une équipe</a>
                         </li>
                         <li>
                             <a href="assets/docs/catalogues/Conduite%20d'entretiens%20professionnels.pdf" target="_blank">Conduite d'entretiens professionnels</a>
@@ -616,6 +643,32 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
                     <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="recueilModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Liens des recueils de texte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <a href="assets/docs/recueil/UN MONDE ENTRE FRAGILITE ET EQUILIBRE.docx" target="_blank">Un monde entre fragilité et équilibre</a>
+                        </li>
+                        <li>
+                            <a href="assets/docs/recueil/livret_mission_locale.pdf" target="_blank">Livret de la mission locale</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
         </div>

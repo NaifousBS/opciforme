@@ -12,11 +12,11 @@
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>-->
 					</ul>
                     <p class="coords">
-                        <strong><i class="fa fa-mobile" aria-hidden="true"></i></strong> : +33 6 27 52 36 16<br>
+                        <strong><i class="fa fa-mobile" aria-hidden="true"></i></strong> : +33 7 69 68 70 87<br>
                         <strong><i class="fa fa-at" aria-hidden="true"></i></strong> : opciforme@gmail.com<br><br>
 					</p>
                     <p class="copyright">
-                        <strong>© 2018 OPCIFORME - Tous droits réservés</strong> 
+                        <strong>© OPCIFORME - Tous droits réservés - 2014-<?php echo date("Y"); ?></strong> 
 					</p>
 				</div>
 			</div>

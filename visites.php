@@ -1,24 +1,81 @@
 <?php
+function ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
+        $output = NULL;
+        if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {
+            $ip = $_SERVER["REMOTE_ADDR"];
+            if ($deep_detect) {
+                if (filter_var(@$_SERVER['HTTP_X_FORWARDED_FOR'], FILTER_VALIDATE_IP))
+                    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+                if (filter_var(@$_SERVER['HTTP_CLIENT_IP'], FILTER_VALIDATE_IP))
+                    $ip = $_SERVER['HTTP_CLIENT_IP'];
+            }
+        }
+        $purpose    = str_replace(array("name", "\n", "\t", " ", "-", "_"), NULL, strtolower(trim($purpose)));
+        $support    = array("country", "countrycode", "state", "region", "city", "location", "address");
+        $continents = array(
+            "AF" => "Africa",
+            "AN" => "Antarctica",
+            "AS" => "Asia",
+            "EU" => "Europe",
+            "OC" => "Australia (Oceania)",
+            "NA" => "North America",
+            "SA" => "South America"
+        );
+        if (filter_var($ip, FILTER_VALIDATE_IP) && in_array($purpose, $support)) {
+            $ipdat = @json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=" . $ip));
+            if (@strlen(trim($ipdat->geoplugin_countryCode)) == 2) {
+                switch ($purpose) {
+                    case "location":
+                        $output = array(
+                            "city"           => @$ipdat->geoplugin_city,
+                            "state"          => @$ipdat->geoplugin_regionName,
+                            "country"        => @$ipdat->geoplugin_countryName,
+                            "country_code"   => @$ipdat->geoplugin_countryCode,
+                            "continent"      => @$continents[strtoupper($ipdat->geoplugin_continentCode)],
+                            "continent_code" => @$ipdat->geoplugin_continentCode
+                        );
+                        break;
+                    case "address":
+                        $address = array($ipdat->geoplugin_countryName);
+                        if (@strlen($ipdat->geoplugin_regionName) >= 1)
+                            $address[] = $ipdat->geoplugin_regionName;
+                        if (@strlen($ipdat->geoplugin_city) >= 1)
+                            $address[] = $ipdat->geoplugin_city;
+                        $output = implode(", ", array_reverse($address));
+                        break;
+                    case "city":
+                        $output = @$ipdat->geoplugin_city;
+                        break;
+                    case "state":
+                        $output = @$ipdat->geoplugin_regionName;
+                        break;
+                    case "region":
+                        $output = @$ipdat->geoplugin_regionName;
+                        break;
+                    case "country":
+                        $output = @$ipdat->geoplugin_countryName;
+                        break;
+                    case "countrycode":
+                        $output = @$ipdat->geoplugin_countryCode;
+                        break;
+                }
+            }
+        }
+        return $output;
+    }
+
 if(!isset($_SESSION)){
     session_start();
-    if(file_exists('compteur_visites.txt'))
-    {
-            $compteur_f = fopen('compteur_visites.txt', 'r+');
-            $compte = fgets($compteur_f);
+    if (!isset($_SESSION['visit_counter'])) {
+         $_SESSION['visit_counter'] = 'visite';
+         $file = 'compteur_visites.csv';
+         $ip = $_SERVER["REMOTE_ADDR"];
+         $content = date("Y-m-d H:i:s").",".$ip.",".ip_info($ip,"country").",".ip_info($ip,"city")."\n";;
+         // Ecrit le contenu dans le fichier, en utilisant le drapeau
+         // FILE_APPEND pour rajouter à la suite du fichier et
+         // LOCK_EX pour empêcher quiconque d'autre d'écrire dans le fichier
+         // en même temps
+         file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
     }
-    else
-    {
-            $compteur_f = fopen('compteur_visites.txt', 'a+');
-            $compte = 0;
-    }
-    if(!isset($_SESSION['compteur_de_visite']))
-    {
-            $_SESSION['compteur_de_visite'] = 'visite';
-            $compte++;
-            fseek($compteur_f, 0);
-            fputs($compteur_f, $compte);
-    }
-    fclose($compteur_f);
-    //echo '<strong>'.$compte.'</strong> visites.';
 }
 ?>

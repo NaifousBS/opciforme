@@ -1,29 +1,52 @@
 <?php 
+require 'assets/phpmailer/src/Exception.php';
+require 'assets/phpmailer/src/PHPMailer.php';
+require 'assets/phpmailer/src/SMTP.php';
+
 include('header.php');
-require_once 'assets/swiftmailer/lib/swift_required.php';
+// require_once 'assets/swiftmailer/lib/swift_required.php';
 include_once 'assets/php/definition.php';
-?>
-<?php
-        $errName= "";
-        $errEmail = "";
-        $errMessage = "";
-        $errHuman = "";
-        $result = "";
+
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// Load Composer's autoloader
+//require 'vendor/autoload.php';
+
+// Instantiation and passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+$errName= "";
+$errEmail = "";
+$errMessage = "";
+$errHuman = "";
+$result = "";
+
+$varA = rand(0,20);
+$varB = rand(0,20);
+$sum = $varA + $varB;
+session_start();
+if (!isset($_SESSION['sum'])) {
+	$_SESSION['sum'] = array();
+}
+array_push($_SESSION['sum'], $sum);
 
 if (isset($_POST["submit"])) {
 		$name = htmlspecialchars($_POST['name']);
 		$email = htmlspecialchars($_POST['email']);
 		$message = htmlspecialchars($_POST['message']);
-		$human =intval($_POST['human']);
+		$human = intval($_POST['human']);
 		$from = 'OPCIFORME'; 
 		$to = 'opciforme@gmail.com';
 		$subject = 'Nouveau message du site OPCIFORME';
 		
-		$body = "De: ".$name."\nMail: ".$email."\nMessage: \n\n".$message;
- 
+		$body = 'De: <b>'.$name.'</b><br>Mail: <b>'.$email.'</b><br><br>'.$message;
+
 		// Check if name has been entered
 		if (!$_POST['name']) {
-			
             $errName= 'Entrez votre nom';
 		}
 		
@@ -37,26 +60,32 @@ if (isset($_POST["submit"])) {
 			$errMessage = 'Entrez votre message';
 		}
 		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
+		$correctsum = $_SESSION['sum'][count($_SESSION['sum']) - 2];
+		if ($human !== $correctsum) {
 			$errHuman = 'Résultat incorrect';
 		}
     
 try {
 // Envoi du mail s'il n'y a pas d'erreur
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-     
-        $transport = Swift_SmtpTransport::newInstance(SMTP, 465, ENCRYPTION)
-            ->setUsername(GMAIL)
-            ->setPassword(PWD);
+		$mail->isSMTP();                                            // Send using SMTP
+		$mail->Host       = SMTP_SERVER;                    		// Set the SMTP server to send through
+		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+		$mail->Username   = GMAIL;                     				// SMTP username
+		$mail->Password   = PWD;                               		// SMTP password
+		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+		$mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
-        $mailer = Swift_Mailer::newInstance($transport);
+		//Recipients
+		$mail->setFrom($email, $name);
+		$mail->addAddress($to);     // Add a recipient
 
-        $messageSwift = Swift_Message::newInstance($subject)
-          ->setFrom(array($email => $name))
-          ->setTo(array(GMAIL))
-          ->setBody($body);
+		// Content           
+		$mail->isHTML(true);               
+		$mail->Subject = $subject;
+		$mail->Body    = $body;
 
-        $envoi = $mailer->send($messageSwift);
+		$mail->send();
     
 		$result='<div class="alert alert-success">Merci! Nous vous répondrons rapidement! <i class="fa fa-smile-o" aria-hidden="true"></i></div>';
 	 
@@ -95,7 +124,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                     <div class="col-sm-10 col-sm-offset-2">
                                         <?php
                                             echo $result;
-                                        ?>	
+										?>	
                                     </div>
                             </div>
                         <br/>
@@ -128,7 +157,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                     ?>	
 								</div>
 								<div class="form-group">
-									<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+									<label for="human" class="col-sm-2 control-label"><?php echo $varA.' + '.$varB;?> = </label>
 									<div class="col-sm-10">
 										<input type="text" class="form-control" id="human" name="human" placeholder="Réponse">
 									</div>
